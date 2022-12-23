@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script defer src="BCalcuscript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="main">
+      <form id="calc_form">
+        <header>
+          <input
+            type="text"
+            disabled
+            id="output"
+            value="0"
+          />
+        </header>
+        <footer>
+          <div>
+            <button
+              data-type="clear"
+              type="reset"
+              value="clear"
+            >
+              AC
+            </button>
+            <button data-type="operator" value="invert">
+              +/-
+            </button>
+            <button data-type="operator" value="%">
+              %
+            </button>
+            <button data-type="operator" value="/">
+              ÷
+            </button>
+          </div>
+          <div>
+            <button
+              data-type="operand"
+              value="7"
+              id="7"
+            >
+              7
+            </button>
+            <button data-type="operand" value="8">
+              8
+            </button>
+            <button data-type="operand" value="9">
+              9
+            </button>
+            <button data-type="operator" value="*">
+              x
+            </button>
+          </div>
+          <div>
+            <button data-type="operand" value="4">
+              4
+            </button>
+            <button data-type="operand" value="5">
+              5
+            </button>
+            <button data-type="operand" value="6">
+              6
+            </button>
+            <button data-type="operator" value="-">
+              -
+            </button>
+          </div>
+          <div>
+            <button data-type="operand" value="1">
+              1
+            </button>
+            <button data-type="operand" value="2">
+              2
+            </button>
+            <button data-type="operand" value="3">
+              3
+            </button>
+            <button data-type="operator" value="+">
+              +
+            </button>
+          </div>
+          <div>
+            <button
+              data-type="operand"
+              value="0"
+            >
+              0
+            </button>
+            <button data-type="operand" value=".">
+              .
+            </button>
+            <button value="=" data-type="operator">
+              =
+            </button>
+          </div>
+        </footer>
+      </form>
+    </main>
+  </body>
+</html>
